@@ -17,7 +17,7 @@ function App() {
 			<Feature />
 			<Testimony />
 			<GetApp />
-			<Footer />
+			{/* <Footer /> */}
 		</>
 	);
 }
