@@ -1,0 +1,54 @@
+.appContainer {
+	height: 400px;
+	width: 100%;
+	background-color: #180218;
+	border-radius: 40px;
+	padding: 130px 80px;
+	margin: 130px 0px;
+	.text {
+		h2 {
+			width: 693px;
+			font-weight: 900;
+			font-size: 38px;
+			line-height: 63px;
+			color: #ffffff;
+			span {
+				color: #7b61ff;
+			}
+		}
+		p {
+			width: 502px;
+			font-weight: 400;
+			font-size: 24px;
+			line-height: 31px;
+			color: #ffffff;
+		}
+
+		div {
+            padding-top: 30px;
+            display: flex;
+            gap:30px;
+			button {
+				color: #ffffff;
+				font-size: 12px;
+                border: none;
+			}
+			.btn1 {
+				padding: 16px 40px;
+				gap: 8px;
+				width: 243px;
+				height: 56px;
+				background: #7b61ff;
+				border-radius: 40px;
+			}.btn2 {
+				padding: 16px 40px;
+				gap: 8px;
+				width: 243px;
+				height: 56px;
+				background: transparent;
+				border-radius: 40px;
+                border: 1px solid white;
+			}
+		}
+	}
+}

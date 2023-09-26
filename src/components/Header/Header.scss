@@ -1,0 +1,42 @@
+header {
+	height: 5vh;
+	padding: 20px 0px;
+	nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.logo {
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			img {
+				width: 32.86px;
+				height: 32.86px;
+			}
+			h2 {
+				font-weight: 600;
+				font-size: 32.7619px;
+			}
+		}
+		ul {
+			list-style: none;
+			display: flex;
+			align-items: center;
+			gap: 20px;
+			li {
+				font-weight: 500;
+				font-size: 16px;
+				line-height: 21px;
+				color: rgba(24, 2, 24, 0.6);
+			}
+			.active {
+				font-weight: 600;
+				font-size: 16px;
+				line-height: 21px;
+				color: #180218;
+			}
+			
+		}
+	}
+}

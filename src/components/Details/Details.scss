@@ -1,0 +1,87 @@
+.detailBox {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 210px;
+	gap: 50px;
+	height: max-content;
+	.left {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		h2 {
+			width: 498px;
+			height: 126px;
+			font-weight: 700;
+			font-size: 48px;
+			line-height: 63px;
+		}
+		p {
+			width: 445px;
+			height: 78px;
+			font-family: "Hanken Grotesk";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 26px;
+			color: rgba(0, 0, 0, 0.6);
+		}
+		button {
+			width: 200px;
+			font-weight: 500;
+			font-size: 20px;
+			color: #7b61ff;
+			padding: 10px 20px;
+			border: 1px solid #7b61ff;
+			border-radius: 20px;
+			background-color: transparent;
+		}
+	}
+	.right {
+		width: 635px;
+		height: 528px;
+		background: linear-gradient(
+				0deg,
+				rgba(123, 97, 255, 0.08),
+				rgba(123, 97, 255, 0.08)
+			),
+			#ffffff;
+		border-radius: 40px;
+		position: relative;
+		overflow: hidden;
+		img {
+			position: absolute;
+			top: 40%;
+			left: 50%;
+			transform: translate(-50%, -40%);
+		}
+	}
+	&:last-child {
+		flex-direction: row-reverse;
+		.left {
+			h2 {
+				width: 544px;
+				height: 126px;
+				font-weight: 700;
+				font-size: 48px;
+			}
+		}
+		.right {
+			width: 635px;
+			height: 528px;
+
+			background: linear-gradient(
+					0deg,
+					rgba(245, 117, 245, 0.08),
+					rgba(245, 117, 245, 0.08)
+				),
+				#ffffff;
+			border-radius: 40px;
+			img {
+				position: absolute;
+				top: 0%;
+				left: 50%;
+				transform: translate(-50%, -0%);
+			}
+		}
+	}
+}

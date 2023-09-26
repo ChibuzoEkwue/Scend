@@ -1,0 +1,60 @@
+.testimony {
+	display: flex;
+	padding: 90px 0px;
+	gap: 50px;
+	height: max-content;
+	.left {
+		h2 {
+			width: 616px;
+			height: 126px;
+			font-weight: 700;
+			font-size: 48px;
+			line-height: 63px;
+			span {
+				color: #7b61ff;
+			}
+		}
+		p {
+			width: 530px;
+			height: 62px;
+			font-weight: 400;
+			font-size: 24px;
+			color: rgba(0, 0, 0, 0.6);
+		}
+	}
+	.right {
+		padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+		h3 {
+			width: 538px;
+			height: 93px;
+			font-weight: 400;
+			font-size: 24px;
+		}
+		div {
+			display: flex;
+            gap: 30px;
+			.userDetails {
+				display: flex;
+				flex-direction: column;
+				gap: 8px;
+				.username {
+					width: 146px;
+					height: 31px;
+					font-weight: 600;
+					font-size: 24px;
+					color: #180218;
+				}
+				.userpos {
+					width: 282px;
+					height: 31px;
+					font-weight: 400;
+					font-size: 24px;
+					color: rgba(24, 2, 24, 0.6);
+				}
+			}
+		}
+	}
+}

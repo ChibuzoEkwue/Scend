@@ -1,0 +1,206 @@
+.hero {
+	margin-top: 15vh;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	height: max-content;
+	padding: 40px 0px;
+	&-texts {
+		h1 {
+			width: 861px;
+			height: 68px;
+			font-style: normal;
+			font-weight: 700;
+			font-size: 52px;
+			line-height: 68px;
+			color: #180218;
+			margin: 0 auto;
+		}
+		P {
+			width: 603px;
+			height: 19px;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 26px;
+			color: rgba(24, 2, 24, 0.8);
+			margin: 20px auto;
+		}
+		.actions {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 50px;
+			width: 480px;
+			margin: 50px auto;
+			span:nth-child(1) {
+				width: 133px;
+				height: 26px;
+				font-weight: 600;
+				font-size: 20px;
+				line-height: 26px;
+				color: white;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+				padding: 16px 40px;
+				gap: 8px;
+				width: 213px;
+				height: 58px;
+				background: #7b61ff;
+				box-shadow: 0px 10px 20px rgba(123, 97, 255, 0.25);
+				border-radius: 40px;
+				flex: none;
+				order: 0;
+				flex-grow: 0;
+			}
+			span {
+				color: rgba(24, 2, 24, 0.6);
+				display: flex;
+				gap: 20px;
+				align-items: center;
+				span {
+					width: 173px;
+					height: 26px;
+					font-style: normal;
+					font-weight: 600;
+					font-size: 20px;
+					line-height: 26px;
+				}
+			}
+		}
+	}
+	&-img {
+		width: 100%;
+		height: 460px;
+		background: url("./image.png");
+		background-repeat: no-repeat;
+		border-radius: 40px;
+		position: relative;
+		.card_1 {
+			position: absolute;
+			width: 201px;
+			height: 102px;
+			left: 35px;
+			top: -35px;
+			background: #ffffff;
+			box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.1);
+			border-radius: 16px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			padding: 15px;
+			.top {
+				display: flex;
+				gap: 20px;
+				.content {
+					display: flex;
+					flex-direction: column;
+					gap: 5px;
+					h5 {
+						font-weight: 800;
+						font-size: 12px;
+						color: #180218;
+					}
+					.progress {
+						width: 120px;
+						height: 2px;
+						background: rgba(247, 247, 247, 0.968627);
+						border-radius: 24px;
+
+						&_bar {
+							width: 69px;
+							height: 2px;
+							background: #7b61ff;
+							border-radius: 24px;
+						}
+					}
+				}
+			}
+			.buttom {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				.info {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					flex-direction: column;
+					h5 {
+						width: 52px;
+						height: 10px;
+						font-style: normal;
+						font-weight: 400;
+						font-size: 8px;
+						line-height: 10px;
+						color: rgba(24, 2, 24, 0.6);
+					}
+					span {
+						font-weight: 700;
+						font-size: 12px;
+						color: #180218;
+						align-self: flex-start;
+					}
+				}
+			}
+		}
+		.card_2 {
+			width: 309px;
+			height: 120px;
+			position: absolute;
+			right: 20px;
+			bottom: -15px;
+			background: #ffffff;
+			box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+			border-radius: 16px;
+			padding: 20px;
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+			.content {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+
+				.logo {
+					width: 40px;
+					height: 40px;
+					background: rgba(255, 127, 80, 0.438);
+					border-radius: 40px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+				}
+				.bars {
+					display: flex;
+					flex-direction: column;
+					gap: 10px;
+					width: 135px;
+					.bar_1 {
+						width: 111px;
+						height: 10px;
+						background: rgba(247, 247, 247, 0.968627);
+					}
+					.bar_2 {
+						width: 135px;
+						height: 10px;
+						background: rgba(247, 247, 247, 0.968627);
+					}
+				}
+				.amount {
+					.green {
+						font-weight: 400;
+						font-size: 14px;
+						color: rgba(10, 208, 10, 0.968627);
+					}
+					.red {
+						font-weight: 400;
+						font-size: 14px;
+						color: rgba(208, 45, 10, 0.968627);
+					}
+				}
+			}
+		}
+	}
+}
